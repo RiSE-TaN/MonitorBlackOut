@@ -15,6 +15,8 @@ namespace MonitorBlackOut
                 window.Show();
             }
 
+            Cursor.Hide();
+
             Application.Run();
         }
     }
